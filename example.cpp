@@ -4,11 +4,9 @@
 #include <unistd.h>
 
 int main() {
-    std::vector<int> v(50, 1);
-    int counter = 0;
+    std::vector<int> v(100, 1);
     for (auto &i : pb<std::vector<int>>(v)) {
-        sleep(1);
-        counter++;
+        usleep(100000);
     }
     return 0;
 }

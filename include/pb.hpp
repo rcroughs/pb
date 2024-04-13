@@ -56,7 +56,7 @@ public:
         _steps  = std::distance(_item.begin(), _item.end());
     };
 
-    pb(T item) : pb(item, pb_style("[", "]", " ", " ", ">", 70, false, "test")) {};
+    pb(T item) : pb(item, pb_style("[", "]", "=", " ", ">", 70, false)) {};
 
     class iterator {
     public:
