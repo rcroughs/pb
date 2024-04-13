@@ -1,3 +1,15 @@
+/**
+ * Copyright (c) 2024 Romain Croughs (romain.croughs@gmail.com)
+ *
+ * Distributed under the MIT License.
+ * (See accompanying file LICENSE or copy at https://opensource.org/licenses/MIT)
+ *
+ * See GitHub repository: https://www.github.com/rcroughs/pb
+ * For any issues, please submit on GitHub at https://www.github.com/rcroughs/pb/issues
+ *
+ * pb.hpp
+ */
+
 #include <iostream>
 #include <functional>
 
